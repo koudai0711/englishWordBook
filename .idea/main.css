@@ -1,0 +1,84 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+/*-- main --*/
+a{
+    text-decoration:none;
+}
+.front-title{
+    font-size: 120px;
+    font-family:fantasy;
+    text-align: center;
+    margin-bottom:100px;
+}
+.front-contents{
+    font-size:60px;
+    font-family:fantasy;
+}
+.school,.restaurant,.hospital,.hotel{
+    margin-top:80px;
+    margin-left:50px;
+}
+.vertical-line{
+    border-left:cadetblue solid 4px;
+    margin-left:100px;
+}
+.fab{
+    position:absolute;
+    left:64px;
+    background-color:lightyellow;
+    color:darkgoldenrod;
+}
+.fas{
+    position:absolute;
+    left:75px;
+    background-color:lightyellow;
+    color:darkgoldenrod;
+}
+body{
+    background-image: url(/Users/roy/testroy/englishWordBook/jigsaw-puzzle-piece-against-on-blue-backdrop.jpg);
+    background-size: cover;
+    background-color:lightyellow;
+    background-blend-mode: lighten;
+}
+
+/*--school--*/
+
+.school-header{
+    font-size: 120px;
+    font-family:fantasy;
+    text-align: center;
+    margin-bottom:100px;
+    margin-top:80px;
+}
+.school-contents{
+    display:flex;
+    justify-content: space-between;
+}
+img{
+    height: 400px;
+    width:250px;
+}
+p{
+    font-family:cursive;
+    margin-left:80px;
+}
+
+/*-- Add vocab --*/
+.addvocab-header{
+    font-size: 120px;
+    font-family:fantasy;
+    text-align: center;
+    margin-bottom:100px;
+    margin-top:80px;
+}
+.main-wrapper{
+    display:flex;
+}
+.main-column{
+    width:400px;
+}
+.sub-column{
+    width:200px;
+}
