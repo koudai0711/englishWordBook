@@ -75,6 +75,9 @@ p{
 }
 .main-wrapper{
     display:flex;
+    justify-content:space-between;
+    font-family:fantasy;
+    font-size:40px;
 }
 .main-column{
     width:400px;
@@ -82,3 +85,27 @@ p{
 .sub-column{
     width:200px;
 }
+
+
+/*-- Practice --*/
+.start{
+    width:200px;
+    height:150px;
+    font-size:40px;
+    border-style:none;
+    border-radius: 2rem;
+    background-image: url(/Users/roy/testroy/englishWordBook/18.jpeg);
+    background-size: cover;
+    color:plum;
+}
+.start-practice{
+    text-align: center;
+}
+
+/*-- History --*/
+
+.line-chart-img{
+    width:400px;
+    margin-left: 200px;
+    margin-bottom:100px;
+} 
